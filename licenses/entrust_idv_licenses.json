@@ -1,0 +1,305 @@
+{
+  "dependencies": [
+    {
+      "name": "AndroidX Activity",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/activity",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Activity Compose",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/activity",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX AppCompat",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/appcompat",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Core KTX",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/core",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX ExifInterface",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/exifinterface",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Fragment KTX",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/fragment",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Lifecycle Runtime KTX",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/lifecycle",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Lifecycle Runtime Compose",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/lifecycle",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Lifecycle ViewModel KTX",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/lifecycle",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Lifecycle ViewModel Compose",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/lifecycle",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Window",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/window",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX Window Core",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/window",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "AndroidX WorkManager",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/work",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "CameraX Camera2",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/camera",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "CameraX Core",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/camera",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "CameraX Lifecycle",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/camera",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "CameraX View",
+      "project_url": "https://developer.android.com/jetpack/androidx/releases/camera",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "Coil Compose",
+      "project_url": "https://github.com/coil-kt/coil",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) Coil Contributors",
+      "changed_source_code": false
+    },
+    {
+      "name": "Coil Network OkHttp",
+      "project_url": "https://github.com/coil-kt/coil",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) Coil Contributors",
+      "changed_source_code": false
+    },
+    {
+      "name": "Coil SVG",
+      "project_url": "https://github.com/coil-kt/coil",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) Coil Contributors",
+      "changed_source_code": false
+    },
+    {
+      "name": "Jetpack Compose Foundation",
+      "project_url": "https://developer.android.com/jetpack/compose",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "Jetpack Compose Material3",
+      "project_url": "https://developer.android.com/jetpack/compose",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "Jetpack Compose Material3 Adaptive",
+      "project_url": "https://developer.android.com/jetpack/compose",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "Jetpack Compose UI",
+      "project_url": "https://developer.android.com/jetpack/compose",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "Jetpack Compose UI Graphics",
+      "project_url": "https://developer.android.com/jetpack/compose",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "Jetpack Compose UI Tooling Preview",
+      "project_url": "https://developer.android.com/jetpack/compose",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "Kotlinx Coroutines",
+      "project_url": "https://github.com/Kotlin/kotlinx.coroutines",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) JetBrains s.r.o. and Kotlin contributors",
+      "changed_source_code": false
+    },
+    {
+      "name": "Kotlinx Serialization",
+      "project_url": "https://github.com/Kotlin/kotlinx.serialization",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) JetBrains s.r.o. and Kotlin contributors",
+      "changed_source_code": false
+    },
+    {
+      "name": "Lottie Compose",
+      "project_url": "https://github.com/airbnb/lottie-android",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) Airbnb, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "OkHttp",
+      "project_url": "https://square.github.io/okhttp/",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2019 Square, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "OkHttp Logging Interceptor",
+      "project_url": "https://square.github.io/okhttp/",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2019 Square, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Retrofit",
+      "project_url": "https://github.com/square/retrofit",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2013 Square, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Retrofit 2 Kotlin Serialization Converter",
+      "project_url": "https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2018 Jake Wharton",
+      "changed_source_code": false
+    },
+    {
+      "name": "Showkase Annotation",
+      "project_url": "https://github.com/airbnb/Showkase",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) Airbnb, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Google Material Components",
+      "project_url": "https://github.com/material-components/material-components-android",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) The Android Open Source Project",
+      "changed_source_code": false
+    },
+    {
+      "name": "TensorFlow Lite (LiteRT)",
+      "project_url": "https://developers.google.com/edge/litert",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2018 The TensorFlow Authors",
+      "changed_source_code": false
+    },
+    {
+      "name": "TensorFlow Lite Metadata (LiteRT)",
+      "project_url": "https://developers.google.com/edge/litert",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2018 The TensorFlow Authors",
+      "changed_source_code": false
+    },
+    {
+      "name": "TensorFlow Lite Support (LiteRT)",
+      "project_url": "https://developers.google.com/edge/litert",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2018 The TensorFlow Authors",
+      "changed_source_code": false
+    },
+    {
+      "name": "JMRTD",
+      "project_url": "https://jmrtd.org/",
+      "license_name": "GNU Lesser General Public License (LGPL)",
+      "copyright_notice": "Copyright (C) 2007 Free Software Foundation, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Scuba",
+      "project_url": "https://sourceforge.net/projects/scuba/",
+      "license_name": "GNU Lesser General Public License (LGPL)",
+      "copyright_notice": "Copyright (C) 2009-2013 The SCUBA team.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Spongy Castle",
+      "project_url": "https://central.sonatype.com/artifact/com.madgag.spongycastle/prov",
+      "license_name": "MIT License",
+      "copyright_notice": "Copyright (c) 2000 - 2023 The Legion of the Bouncy Castle Inc.",
+      "changed_source_code": false
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Apache-2.0",
+      "file": "entrust_idv_licenses_apache2_0.txt"
+    },
+    {
+      "name": "GNU Lesser General Public License (LGPL)",
+      "file": "entrust_idv_licenses_lgpl.txt"
+    },
+    {
+      "name": "MIT",
+      "file": "entrust_idv_licenses_mit.txt"
+    }
+  ]
+}
