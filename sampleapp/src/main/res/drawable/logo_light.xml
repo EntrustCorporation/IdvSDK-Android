@@ -1,0 +1,71 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#6366f1"
+        android:strokeColor="#4f46e5"
+        android:strokeWidth="2"
+        android:pathData="M54,4 A50,50 0,1,1 54,104 A50,50 0,1,1 54,4 Z" />
+
+    <!-- Gradient overlay circle -->
+    <path
+        android:pathData="M54,4 A50,50 0,1,1 54,104 A50,50 0,1,1 54,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item
+                    android:color="#CC8b5cf6"
+                    android:offset="0" />
+                <item
+                    android:color="#9906b6d4"
+                    android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central diamond -->
+    <path
+        android:fillColor="#ffffff"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="1"
+        android:pathData="M54,36 L72,54 L54,72 L36,54 Z" />
+
+    <!-- Corner accent circles -->
+    <path
+        android:fillColor="#E6ffffff"
+        android:pathData="M54,32 A4,4 0,1,1 54,40 A4,4 0,1,1 54,32 Z" />
+
+    <path
+        android:fillColor="#E6ffffff"
+        android:pathData="M72,50 A4,4 0,1,1 72,58 A4,4 0,1,1 72,50 Z" />
+
+    <path
+        android:fillColor="#E6ffffff"
+        android:pathData="M54,68 A4,4 0,1,1 54,76 A4,4 0,1,1 54,68 Z" />
+
+    <path
+        android:fillColor="#E6ffffff"
+        android:pathData="M36,50 A4,4 0,1,1 36,58 A4,4 0,1,1 36,50 Z" />
+
+    <!-- Inner detail diamond -->
+    <path
+        android:fillColor="#B36366f1"
+        android:pathData="M54,46 L62,54 L54,62 L46,54 Z" />
+
+    <!-- Subtle highlight ring -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#33ffffff"
+        android:strokeWidth="1"
+        android:pathData="M54,4 A50,50 0,1,1 54,104 A50,50 0,1,1 54,4 Z" />
+
+</vector>

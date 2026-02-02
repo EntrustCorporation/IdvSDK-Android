@@ -1,0 +1,18 @@
+[versions]
+entrust-idv = "100.0.0"
+appcompat = "1.7.1"
+coreKtx = "1.17.0"
+lifecycle-version = "2.10.0"
+agp = "8.13.2"
+kotlin = "2.1.10"
+
+[libraries]
+entrust-idv-core = { group = "com.entrust.identity.verification.sdk", name = "core", version.ref = "entrust-idv" }
+
+androidx-appcompat = {group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-core = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime = {group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-version" }
+
+[plugins]
+android-application = {id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

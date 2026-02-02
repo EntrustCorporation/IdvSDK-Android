@@ -1,0 +1,78 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle with lighter colors for dark theme -->
+    <path
+        android:fillColor="#8b5cf6"
+        android:strokeColor="#a855f7"
+        android:strokeWidth="2"
+        android:pathData="M54,4 A50,50 0,1,1 54,104 A50,50 0,1,1 54,4 Z" />
+
+    <!-- Gradient overlay circle -->
+    <path
+        android:pathData="M54,4 A50,50 0,1,1 54,104 A50,50 0,1,1 54,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item
+                    android:color="#CC06b6d4"
+                    android:offset="0" />
+                <item
+                    android:color="#B3f59e0b"
+                    android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central diamond with bright colors -->
+    <path
+        android:fillColor="#ffffff"
+        android:strokeColor="#f1f5f9"
+        android:strokeWidth="2"
+        android:pathData="M54,36 L72,54 L54,72 L36,54 Z" />
+
+    <!-- Corner accent circles with glow effect -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M54,31 A5,5 0,1,1 54,41 A5,5 0,1,1 54,31 Z" />
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M72,49 A5,5 0,1,1 72,59 A5,5 0,1,1 72,49 Z" />
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M54,67 A5,5 0,1,1 54,77 A5,5 0,1,1 54,67 Z" />
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M36,49 A5,5 0,1,1 36,59 A5,5 0,1,1 36,49 Z" />
+
+    <!-- Inner detail diamond with bright accent -->
+    <path
+        android:fillColor="#06b6d4"
+        android:pathData="M54,46 L62,54 L54,62 L46,54 Z" />
+
+    <!-- Bright highlight ring for dark theme -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#66ffffff"
+        android:strokeWidth="1"
+        android:pathData="M54,4 A50,50 0,1,1 54,104 A50,50 0,1,1 54,4 Z" />
+
+    <!-- Additional inner glow -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#4406b6d4"
+        android:strokeWidth="3"
+        android:pathData="M54,10 A44,44 0,1,1 54,98 A44,44 0,1,1 54,10 Z" />
+
+</vector>
