@@ -1,1 +1,5 @@
 .vscode/
+sampleapp/.gradle/
+sampleapp/build/
+sampleapp/local.properties
+sampleapp/.idea/
