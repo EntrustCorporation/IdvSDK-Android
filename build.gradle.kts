@@ -20,20 +20,13 @@ android {
     signingConfigs {
         create("release") {
             // Using debug keystore for sample app convenience
-            storeFile = file("${System.getProperty("user.home")}/.android/debug.keystore")
+            storeFile = file("${rootProject.projectDir}/debug.keystore")
             storePassword = "android"
             keyAlias = "androiddebugkey"
             keyPassword = "android"
         }
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = true
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            signingConfig = signingConfigs.getByName("release")
-        }
-    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
