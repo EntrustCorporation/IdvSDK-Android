@@ -1,5 +1,5 @@
 [versions]
-entrust-idv = "100.1.0"
+entrust-idv = "100.2.0"
 appcompat = "1.7.1"
 coreKtx = "1.17.0"
 lifecycle-version = "2.10.0"
@@ -8,6 +8,11 @@ kotlin = "2.1.10"
 
 [libraries]
 entrust-idv-core = { group = "com.entrust.identity.verification.sdk", name = "core", version.ref = "entrust-idv" }
+entrust-idv-welcome = { group = "com.entrust.identity.verification.sdk", name = "welcome", version.ref = "entrust-idv" }
+entrust-idv-face-motion = { group = "com.entrust.identity.verification.sdk", name = "face.motion", version.ref = "entrust-idv" }
+entrust-idv-face-photo = { group = "com.entrust.identity.verification.sdk", name = "face.photo", version.ref = "entrust-idv" }
+entrust-idv-document = { group = "com.entrust.identity.verification.sdk", name = "document", version.ref = "entrust-idv" }
+entrust-idv-nfc = { group = "com.entrust.identity.verification.sdk", name = "nfc", version.ref = "entrust-idv" }
 
 androidx-appcompat = {group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 androidx-core = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }

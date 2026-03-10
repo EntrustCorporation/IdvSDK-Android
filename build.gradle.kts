@@ -18,6 +18,7 @@ android {
     }
 
     signingConfigs {
+
         create("release") {
             // Using debug keystore for sample app convenience
             storeFile = file("${rootProject.projectDir}/debug.keystore")
@@ -31,6 +32,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
     kotlinOptions {
         jvmTarget = "11"
     }
@@ -43,4 +45,9 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime)
 
     implementation(libs.entrust.idv.core)
+    implementation(libs.entrust.idv.welcome)
+    implementation(libs.entrust.idv.face.photo)
+    implementation(libs.entrust.idv.face.motion)
+    implementation(libs.entrust.idv.document)
+    implementation(libs.entrust.idv.nfc)
 }
