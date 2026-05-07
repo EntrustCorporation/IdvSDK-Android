@@ -1,11 +1,19 @@
+## 100.5.0
+
+### Changed
+
+- Update the NFC animations to use a 16:9 format
+- Add support for custom font files placed in res/font/ via the `res://font/<name>` URI scheme in `ResourceLocation.Local`, alongside the existing file:///android_asset/ scheme
+- Downgraded compose to version 2025.02.00 to stay as minmimum as possible to avoid version conflicts with clients.
+
 ## 100.4.0
 
 ### Added
 
-- Added a script to the integration-sample app for enterprise customers to download SDK artifacts seamlessly
+- Implemented Live Selfie Authentication and Light Onboarding-Verify Liveness SDK features
 - Added support for custom local fonts. Integrators can now provide a custom local (bundled) font via `Theme.resources.fonts`, applied across both native and web modules
 - Allow customization for selection list item border radius
-- Implemented Live Selfie Authentication and Light Onboarding-Verify Liveness SDK features
+- Added a script to the integration-sample app for enterprise customers to download SDK artifacts seamlessly
 
 ### Changed
 
