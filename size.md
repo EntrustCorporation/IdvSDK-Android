@@ -1,6 +1,6 @@
 # SDK Size — Android (arm64-v8a)
 
-_Generated on 2026-05-08 · SDK version: 100.5.1_
+_Generated on 2026-05-20 · SDK version: 100.6.0_
 
 | Package | Base | Size Increase Android (arm64) (Package − Base) |
 |---------|------|------------------------------------------------|

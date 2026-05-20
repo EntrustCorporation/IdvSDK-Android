@@ -1,3 +1,20 @@
+## 100.6.0
+
+### Added
+
+- Added the ability to detect and handle multiple faces during the Motion capture flow
+- Added previous/next buttons in the Document capture bottom sheet help dialog
+
+### Changed
+
+- Added Button role to document types card items and BottomSheetHandle for better Talkback experience.
+
+### Fixed
+
+- Fix status bar colour and navigation bar shift regression on capture screens and country picker
+- Fixed TalkBack not announcing animations on the NFC instruction screen, Face Motion instruction screen, and Document instruction screen.
+- Fixed TalkBack accessibility on the document intro screen: the animation is now focusable with a descriptive label, and the Play/Pause buttons announce their role and name correctly.
+
 ## 100.5.0
 
 ### Changed
