@@ -1,3 +1,13 @@
+## 100.6.1
+
+### Changed
+
+- Changed the translations overrides validation: we now allow passing **empty** strings as valid values for a translation key. This effectively means that when a custom empty translation is passed to the SDK for a certain translation key, it will not be displayed in the UI.
+
+### Fixed
+
+- Fixed an issue with the Face Motion capture upload in the context of Studio task timeouts. This is now calling `onError` in this scenario, to ensure consistency with the other capture experiences like Document
+
 ## 100.6.0
 
 ### Added
