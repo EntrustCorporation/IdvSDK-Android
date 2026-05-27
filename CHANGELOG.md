@@ -1,3 +1,13 @@
+## 100.6.2
+
+### Fixed
+
+- Fixed a silent crash in Motion when the VIBRATE permission declaration is removed from the merged Manifest file
+- Prevent 3rd-party apps from reacting to NFC while the SDK is in the foreground
+- Fix Document capture intro screen animation being announced twice by TalkBack.
+- Fixed screen reader traversal order in Document Capture Intro and Motion Intro screens.
+- Fixed screen reader focus of the Play/Pause button in Motion Intro screen 
+
 ## 100.6.1
 
 ### Changed
