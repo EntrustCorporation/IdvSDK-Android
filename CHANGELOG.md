@@ -1,3 +1,9 @@
+## 100.6.3
+
+### Changed
+
+- Use Studio toggle for enabling Randomness without experimental flag
+
 ## 100.6.2
 
 ### Fixed

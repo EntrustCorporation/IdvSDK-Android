@@ -1,5 +1,5 @@
 [versions]
-entrust-idv = "100.6.2"
+entrust-idv = "100.6.3"
 appcompat = "1.7.1"
 coreKtx = "1.17.0"
 lifecycle-version = "2.10.0"
