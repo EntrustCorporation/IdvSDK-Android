@@ -1,3 +1,17 @@
+## 100.7.0
+
+### Added
+
+- On Studio flows now honor the welcome screen configuration returned by the SDK Configuration API. When the welcome screen is disabled on Studio for a workflow, it is no longer shown at the start of the flow; otherwise the existing behavior is kept.
+
+### Fixed
+
+- Fixed the biometric token handler (`onTokenGenerated`) never firing on release builds.
+- Do not attempt NFC flow when NFC module is not integrated
+- Fix intro animations disappearing after dismissing the alert dialog
+- Fixed WorkManager crash caused by large payloads exceeding the 10 KB Data limit.
+- Improve SDK launch reliability and startup UX by adding a splash handoff flow, startup loader, and theme-aware startup system bars.
+
 ## 100.6.3
 
 ### Changed
