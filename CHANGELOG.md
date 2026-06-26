@@ -5,6 +5,10 @@
 - Use Studio toggle for enabling Randomness without experimental flag
 - Utilize settings panel to enable NFC
 
+### Fixed
+
+- Fix Banner text being clipped when system font is scaled up
+
 ## 100.6.2
 
 ### Fixed
