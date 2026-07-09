@@ -1,18 +1,18 @@
 # SDK Size — Android (arm64-v8a)
 
-_Generated on 2026-06-26 · SDK version: 100.6.5_
+_Generated on 2026-07-09 · SDK version: 100.8.0_
 
 | Package | Base | Size Increase Android (arm64) (Package − Base) |
 |---------|------|------------------------------------------------|
-| Core | Sample Native App (not using Compose UI) | 2.98 MB |
-| Welcome | Core | +0.88 MB |
-| Face Photo | Core | +1.19 MB |
-| Face Motion | Core | +3.29 MB |
-| Document | Core | +3.61 MB |
-| Face Motion | Core + Document | +0.36 MB |
-| NFC | Core + Document | +5.06 MB |
-| Biometric Token | Core | +0.83 MB |
-| All Native Modules | Core | +9.08 MB |
+| Core | Sample Native App (not using Compose UI) | 3.34 MB |
+| Welcome | Core | +1.35 MB |
+| Face Photo | Core | +1.72 MB |
+| Face Motion | Core | +3.73 MB |
+| Document | Core | +3.86 MB |
+| Face Motion | Core + Document | +0.40 MB |
+| NFC | Core + Document | +5.12 MB |
+| Biometric Token | Core | +1.34 MB |
+| All Native Modules | Core | +9.45 MB |
 
 ### How to read this table
 

@@ -1,13 +1,47 @@
-## 100.6.4
+## 100.8.0
+
+### Added
+
+- Support custom remote fonts: integrators can now pass a `ResourceLocation.Remote` URL in their `SdkFont` list and it is downloaded, cached, and applied across all native modules before any screen renders. The font download is best-effort with a 20 MB size cap and a 15 s timeout; if loading fails the SDK falls back to the system font and logs an error. OTF fonts require API 26+; on older devices OTF sources are skipped and the next TTF source or system font is used instead. Web modules already support remote fonts and are unaffected. Additionally, custom font sources are now applied in the order declared by the integrator (previously TTF was silently preferred over OTF).
+
+### Changed
+
+- Utilize settings panel to enable NFC
+- Improved the accessibility of the document and country selection bottom sheets. The close (drag handle) control is now exposed to screen readers with an appropriate button role and accessible name, instead of relying on the interaction hint alone.
+- Improved the accessibility of document capture warning icons. The informative icons shown in the live capture feedback and the capture warning bottom sheet now provide a text alternative to screen readers, so their meaning is no longer conveyed by the icon alone.
+- Improved the accessibility of the document upload success screen. The informative success icon shown above the "ID submitted" confirmation now provides a text alternative to screen readers, so its meaning is no longer conveyed by the icon alone.
+- Increased contrast of the inactive page indicator dot colour on document help carousel
+
+### Fixed
+
+- Fixed an issue where Motion video uploads could occasionally fail due to exceeding the upload size limit.
+- Fixed an issue where autocapture was not functioning on slow network connections. ML models required for autocapture now fall back to manual capture if they fail to initialise within the configured timeout.
+- Fix Banner text being clipped when system font is scaled up
+- Fix network requests being cancelled during retries by closing the previous response before retrying, preventing an IllegalStateException ("cannot make a new request because the previous response is still open").
+- Improved accessibility of advisory banners: screen readers now announce the banner's type (e.g. "Information:") before its text, and the decorative banner icon is no longer a separate focus stop.
+- Improved accessibility of error status screens: screen readers now announce "Error:" before the heading so the meaning of the error icon is conveyed, and the icon itself is not part of the screen reader traversal.
+- Fixed the "Error:" prefix not being announced by TalkBack on error status screens (such as the Motion "We can't detect your face" screen) when the heading received screen reader focus on load.
+- Improved accessibility of the motion capture success state: screen readers now announce "Success:" before the completion message, and the success icon is hidden from screen reader traversal.
+
+## 100.7.0
+
+### Added
+
+- On Studio flows now honor the welcome screen configuration returned by the SDK Configuration API. When the welcome screen is disabled on Studio for a workflow, it is no longer shown at the start of the flow; otherwise the existing behavior is kept.
+
+### Fixed
+
+- Fixed the biometric token handler (`onTokenGenerated`) never firing on release builds.
+- Do not attempt NFC flow when NFC module is not integrated
+- Fix intro animations disappearing after dismissing the alert dialog
+- Fixed WorkManager crash caused by large payloads exceeding the 10 KB Data limit.
+- Improve SDK launch reliability and startup UX by adding a splash handoff flow, startup loader, and theme-aware startup system bars.
+
+## 100.6.3
 
 ### Changed
 
 - Use Studio toggle for enabling Randomness without experimental flag
-- Utilize settings panel to enable NFC
-
-### Fixed
-
-- Fix Banner text being clipped when system font is scaled up
 
 ## 100.6.2
 
