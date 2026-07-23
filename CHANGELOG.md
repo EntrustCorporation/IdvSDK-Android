@@ -1,3 +1,9 @@
+## 100.9.0
+
+### Fixed
+
+- Fixed TalkBack not announcing the title as a heading on status screens (such as the unsupported/unaccepted document page). The title now receives accessibility focus and is announced as a heading when the screen appears, consistent with content screens.
+
 ## 100.8.0
 
 ### Added
