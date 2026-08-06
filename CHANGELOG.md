@@ -1,3 +1,18 @@
+## 100.10.0
+
+### Added
+
+- Adds on-device image quality assessment for Motion capture, checking frame sharpness, brightness, and contrast before/during recording
+
+### Changed
+
+- Update scan button colors on the document capture screen
+
+### Fixed
+
+- Fixes several progress/spinner indicators not reflecting the integrator's configured brand color: the splash screen spinner (RGBA hex colors were parsed as ARGB), the external link/PDF preview bottom sheet spinner (previously not themed at all, and stuck showing a static grey track instead of animating), and the NFC chip-scanning bottom sheet's progress ring (was hardcoded to a legacy blue instead of the brand color)
+- Fixed a startup slowdown where the SDK could stay on the loading screen for an extended time before the first screen appeared on networks where the Cloudflare DNS-over-HTTPS resolver is blocked or slow. DoH lookups are now tightly time-bounded and fall back to the system DNS quickly, the SDK client no longer waits indefinitely to establish a connection, and independent startup requests are performed concurrently.
+
 ## 100.9.0
 
 ### Fixed
