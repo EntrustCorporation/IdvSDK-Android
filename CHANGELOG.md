@@ -1,3 +1,26 @@
+## 100.13.0
+
+### Fixed
+
+- Fixes the country selector in Document capture being announced as a drop-down list by TalkBack. It now announces as a button, matching the separate screen it opens
+- Fixed TalkBack not announcing the title as a heading on status screens (such as the unsupported/unaccepted document page). The title now receives accessibility focus and is announced as a heading when the screen appears, consistent with content screens.
+
+## 100.12.0
+
+### Changed
+
+- XML translation overrides declared in the integrating app are now applied even when the SDK is delivered as a dynamic feature module.
+- Connectivity failures (DNS, socket, TLS, and retry-exhaustion errors) are now reported to the crash reporting pipeline at log level WARNING instead of ERROR, since they are expected/environmental rather than SDK defects. These failures are also now classified as ErrorType.NetworkException in the onError callback instead of falling through to ErrorType.GenericException, so integrators handling errors by type can distinguish connectivity issues and build dedicated "check your connection" / retry UX. Unrelated failures (e.g. malformed server responses) are unaffected and continue to report ErrorType.GenericException at ERROR
+- The document selection screen is now skipped automatically when only a single document type and country are configured
+
+### Fixed
+
+- A backend authentication failure (401/403) is now reported to the crash reporting pipeline once instead of two or three times. BackendErrorInterceptor previously threw an SdkException, which OkHttp cannot deliver from an interceptor, so the same failure was reported again as a wrapped "canceled due to ..." IOException and once more through the default uncaught exception handler. The ErrorType surfaced to integrators through onError is unchanged
+- Terminal conditions the SDK cannot prevent - an expired or invalid token, an exhausted trial, a geo-blocked request, connectivity failures, and media upload failures - are now reported to the crash reporting pipeline at log level WARNING instead of ERROR. Severity is derived from ErrorType.category in the shared error contract, so a new error type inherits the right severity without an SDK change. Failures that may be SDK defects continue to report at ERROR
+- A failed analytics request no longer ends the flow. Analytics shares the authenticated HTTP client, so a 401 or 403 on a telemetry request previously terminated the verification flow through onError. That failure is now ignored and the flow continues; a genuine authentication failure still surfaces on the next API call
+- Fixed a hard, non-retryable verification failure ("Unable to load PublicSuffixDatabase.list resource.") in apps that resolve an Android build of OkHttp 5.x. The SDK runs its verification flow in a separate process, and OkHttp 5.x reads its public suffix list through an Android context that is only set in the default process. The SDK now sets that context in the process it owns, so you no longer need to call okhttp3.OkHttp.initialize(applicationContext) from Application.onCreate() as a workaround.
+- DNS resolution now falls back to the system resolver on any resolver failure rather than only UnknownHostException, so a resolver that breaks the OkHttp contract degrades instead of aborting the call.
+
 ## 100.11.0
 
 ### Added
