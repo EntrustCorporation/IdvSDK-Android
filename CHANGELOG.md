@@ -1,3 +1,9 @@
+## 100.14.0
+
+### Fixed
+
+- Fixed TalkBack announcing the Studio welcome screen's illustration twice with no image label. The illustration is now marked decorative and skipped by screen readers, matching iOS.
+
 ## 100.13.0
 
 ### Fixed
