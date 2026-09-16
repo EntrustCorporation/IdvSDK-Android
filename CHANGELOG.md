@@ -1,3 +1,12 @@
+## 100.15.0
+
+### Fixed
+
+- Fixed an issue where only the back side of a document was processed.
+- Fixed TalkBack announcing the Studio welcome screen's illustration twice with no image label. The illustration is now marked decorative and skipped by screen readers, matching iOS.
+- Failed network requests are now retried up to 4 times instead of 3, matching iOS and Web.
+- Removed a 7 second delay that was applied after the final retry attempt before the request failed.
+
 ## 100.14.0
 
 ### Fixed
