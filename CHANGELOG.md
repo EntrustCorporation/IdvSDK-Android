@@ -1,3 +1,19 @@
+## 100.16.0
+
+### Added
+
+- SDK copy can now include a `<link href="https://...">text</link>` tag, rendered as a styled, tappable link that opens in the system browser. Unsupported tags or non-https URLs render as plain text.
+
+### Changed
+
+- Reduced the SDK size by 1.9 MB by removing a preview-only image from release builds.
+
+### Fixed
+
+- Fixed the external link sheet closing immediately instead of showing the linked page.
+- External links are no longer downloaded twice before the sheet opens.
+- Hosted capture WebView cookies are now expired when a flow completes, exits, or errors, and WebView responses are no longer written to the disk cache. Saved biometric tokens are kept.
+
 ## 100.15.0
 
 ### Fixed
