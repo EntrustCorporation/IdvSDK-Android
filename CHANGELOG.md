@@ -1,3 +1,29 @@
+## 100.17.0
+
+### Added
+
+- Reading PIN‑protected data from NFC-capable Romanian ID cards
+- SDK copy can now include a `<link href="https://...">text</link>` tag, rendered as a styled, tappable link that opens in the system browser. Unsupported tags or non-https URLs render as plain text.
+- Open SDK copy links in Chrome Custom Tab by default, with a fallback to the external browser if no Custom Tabs provider is available
+
+### Changed
+
+- Reduced the SDK size by 1.9 MB by removing a preview-only image from release builds.
+
+### Fixed
+
+- Fixed an issue where only the back side of a document was processed.
+- Fixed custom supported documents not being shown when they are the only documents configured in a Studio workflow. Only the configured custom documents are now shown on each document capture.
+- Fixed the missing warning icon on the "Change angle to avoid glare" document capture screen.
+- The clear button in the country search now has a localised accessibility label instead of the English "Clear Search".
+- Fixed TalkBack announcing the Studio welcome screen's illustration twice with no image label. The illustration is now marked decorative and skipped by screen readers, matching iOS.
+- Failed network requests are now retried up to 4 times instead of 3, matching iOS and Web.
+- Removed a 7 second delay that was applied after the final retry attempt before the request failed.
+- Fixed the external link sheet closing immediately instead of showing the linked page.
+- External links are no longer downloaded twice before the sheet opens.
+- Hosted capture WebView cookies are now expired when a flow completes, exits, or errors, and WebView responses are no longer written to the disk cache. Saved biometric tokens are kept.
+- An untrusted, expired or self-signed server certificate now fails on the first attempt instead of being retried
+
 ## 100.16.0
 
 ### Added
