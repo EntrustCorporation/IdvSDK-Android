@@ -1,3 +1,17 @@
+## 100.18.0
+
+### Changed
+
+- Removed the transitive Material Components dependency.
+- Made Play Feature Delivery a compile-only dependency.
+- Removed the transitive AppCompat and Fragment dependencies.
+
+### Fixed
+
+- Fix TalkBack not announcing the clear button in the country search as a button
+- Fixed TalkBack reading off-screen pages in the document capture "Need help?" tips carousel
+- Fixed a crash on the exit dialog when the SDK is installed on demand as a Dynamic Feature Module.
+
 ## 100.17.0
 
 ### Added
@@ -9,6 +23,8 @@
 ### Changed
 
 - Reduced the SDK size by 1.9 MB by removing a preview-only image from release builds.
+- Reduced the size the SDK adds to a minified app by up to 24%. Your R8 build can now shrink SDK code your integration never reaches.
+- Narrowed the NFC module's BouncyCastle keep rules so unused cryptography is removed from your app.
 
 ### Fixed
 
@@ -33,6 +49,8 @@
 ### Changed
 
 - Reduced the SDK size by 1.9 MB by removing a preview-only image from release builds.
+- Reduced the size the SDK adds to a minified app by up to 24%. Your R8 build can now shrink SDK code your integration never reaches.
+- Narrowed the NFC module's BouncyCastle keep rules so unused cryptography is removed from your app.
 
 ### Fixed
 

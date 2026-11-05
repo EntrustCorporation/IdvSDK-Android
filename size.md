@@ -1,21 +1,21 @@
 # SDK Size — Android (arm64-v8a)
 
-_Generated on 2026-10-27 · SDK version: 100.17.0_
+_Generated on 2026-11-05 · SDK version: 100.18.0_
 
 ## Individual Module Impacts
 
 | Package | Base | Size Increase Android (arm64) (Package − Base) |
 |---------|------|------------------------------------------------|
-| Core | Sample Native App (not using Compose UI) | 2.86 MB |
-| Welcome | Core | 0.94 MB |
-| Face Photo | Core | 1.25 MB |
-| Face Motion | Core | 3.40 MB |
-| Document | Core | 3.72 MB |
-| Face Motion | Core + Document | 0.38 MB |
-| NFC | Core + Document | 2.43 MB |
-| Biometric Token | Core | 0.93 MB |
-| Retry | Core | 0.94 MB |
-| All Native Modules | Core | 6.57 MB |
+| Core | Sample Native App (not using Compose UI) | 1.96 MB |
+| Welcome | Core | 0.86 MB |
+| Face Photo | Core | 1.21 MB |
+| Face Motion | Core | 3.32 MB |
+| Document | Core | 3.83 MB |
+| Face Motion | Core + Document | 0.37 MB |
+| NFC | Core + Document | 1.72 MB |
+| Biometric Token | Core | 0.86 MB |
+| Retry | Core | 0.85 MB |
+| All Native Modules | Core | 5.98 MB |
 
 ### How to read this table
 
@@ -29,13 +29,13 @@ The table above measures each module in isolation, which does not show the cost 
 
 | Combination | Size Increase Android (arm64) (Combination − Core) |
 |-------------|----------------------------------------------------|
-| Core | — (baseline, 2.86 MB total) |
-| Core + Document | 3.72 MB |
-| Core + Document + Face Photo | 3.76 MB |
-| Core + Document + Face Motion | 4.09 MB |
-| Core + Document + NFC | 6.15 MB |
-| Core + Document + NFC + Face Photo | 6.18 MB |
-| Core + Document + NFC + Face Motion | 6.51 MB |
+| Core | — (baseline, 1.96 MB total) |
+| Core + Document | 3.83 MB |
+| Core + Document + Face Photo | 3.87 MB |
+| Core + Document + Face Motion | 4.20 MB |
+| Core + Document + NFC | 5.55 MB |
+| Core + Document + NFC + Face Photo | 5.58 MB |
+| Core + Document + NFC + Face Motion | 5.91 MB |
 
 > **Note on shared dependencies**
 >
