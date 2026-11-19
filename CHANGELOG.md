@@ -1,3 +1,19 @@
+## 100.19.0
+
+### Changed
+
+- Web modules in this release use Web SDK version 14.90.0.
+
+### Fixed
+
+- Fixed incorrect feedback shown during document capture when the document is cut off.
+- Fixed Classic flows failing with GenericException after capturing a generic (custom) document configured with DocumentFiltering.extend. The capture now completes and DocumentCaptureResult reports the new DocumentType.GenericDocument.
+- Fixed TalkBack announcing "Flip your document to the front side" instead of the passport photo page instruction when a passport is shown on the wrong side during document capture
+- Fix system Back on the native Consent screen showing an endless loading spinner
+- Studio flows on an abandoned or failed workflow run now end with `WorkflowTaskAbandoned` or `WorkflowTaskError` instead of `GenericException`, matching iOS and Web.
+- Fix the SDK token and other session identifiers being written to logcat in release builds by the web modules
+- Fixed the Studio welcome screen illustration missing its background container, matching iOS and Web.
+
 ## 100.18.0
 
 ### Changed

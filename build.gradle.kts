@@ -36,6 +36,13 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    packaging {
+        resources {
+            pickFirsts += "META-INF/LICENSE.md"
+        }
+    }
+
 }
 
 dependencies {
