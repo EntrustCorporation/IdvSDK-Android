@@ -1,6 +1,6 @@
 # SDK Size — Android (arm64-v8a)
 
-_Generated on 2026-11-19 · SDK version: 100.19.0_
+_Generated on 2026-11-26 · SDK version: 100.19.1_
 
 ## Individual Module Impacts
 

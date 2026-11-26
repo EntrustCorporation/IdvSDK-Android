@@ -1,3 +1,9 @@
+## 100.19.1
+
+### Fixed
+
+- Fixed a crash when starting a Studio workflow whose document task is configured with document types unknown to the SDK. Unsupported document types are now skipped.
+
 ## 100.19.0
 
 ### Changed
